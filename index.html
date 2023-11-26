@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>Form</title>
+</head>
+<body>
+  <h1 id="title">
+    DOM Manipulation with Forms
+  </h1>
+  <p id="description">
+    Adding user data into the table.
+  </p>
+  <form action="" id="form">
+    <div class="form-group">
+      <label for="">
+        First Name:
+        <input type="text" name="" id="first-name" placeholder="first-name" required>
+      </label>
+      <label for="">
+        Last Name:
+        <input type="text" name="" id="last-name" placeholder="last-name" required>
+      </label>
+      <label for="">
+        Email:
+        <input type="email" name="" id="email" placeholder="Email" required>
+      </label>
+      <label for="">
+        State:
+        <input type="text" name="state" id="state" placeholder="state"  required>
+      </label>
+      <label for="">
+        Country:
+        <input type="text" name="country" id="country" placeholder="country"  required>
+      </label>
+      <label for="">
+        Pincode:
+        <input type="text" name="" id="pincode" placeholder="Pincode"  required>
+      </label>
+      <label for="" class="genders">
+        Gender:
+        <div class="gender">
+          <span class="span">Male</span>
+          <input type="radio" class="radio" name="gender" value="Male" >
+        </div>
+        <div class="gender">
+          <span class="span">Female</span>
+          <input type="radio" class="radio" name="gender" value="Female">
+        </div>
+      </label>
+      <label for="" class="favourites">
+        Favourite Food:
+       <div class="food">
+          <span class="span">Dosa</span>
+          <input type="checkbox" class="check" name="food" value="Dosa">
+        </div>
+        <div class="food">
+          <span class="span">Idly</span>
+          <input type="checkbox" class="check" name="food" value="Idly">
+        </div>
+        <div class="food">
+          <span class="span">Soup</span>
+          <input type="checkbox" class="check" name="food" value="Soup">
+        </div>
+        <div class="food">
+          <span class="span">Poori</span>
+          <input type="checkbox" class="check" name="food" value="Poori">
+        </div>
+        <div class="food">
+          <span class="span">Briyani</span>
+          <input type="checkbox" class="check" name="food" value="Briyani">
+        </div>
+      </label>
+      <label for="address">
+        Address:
+      </label>
+      <textarea name="address" id="address" cols="5" rows="10" placeholder="address" required></textarea>
+    </div>
+    <button type="submit" id="submit" class="btn btn-primary">
+      Submit
+    </button>
+  </form>
+  <div>
+    <table class="table">
+      <thead>
+        <tr>
+          <th>First name</th>
+          <th>Last name</th>
+          <th>Email</th>
+          <th>address</th>
+          <th>pincode</th>
+          <th>Gender</th>
+          <th>Food</th>
+          <th>State</th>
+          <th>Country</th>
+        </tr>
+      </thead>
+      <tbody>
+        
+      </tbody>
+    </table>
+  </div>
+  
+  <script src="./script.js"></script>
+  <script src="https://app.zenclass.in/sheets/v1/js/zen/suite/bundle.js"></script>
+</body>
+</html>

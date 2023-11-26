@@ -1,0 +1,37 @@
+.form-group{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.genders{
+  display: flex;
+  gap: 5px;
+}
+.gender{
+  display: flex;
+  align-items: center;
+}
+input{
+  padding: 5px 10px;
+}
+textarea{
+  resize: none;
+  max-width: 500px;
+  padding: 5px;
+}
+.btn{
+  margin: 10px 0;
+  border: 0;
+  padding: 5px 8px;
+  color: white;
+  background-color: rgb(56, 103, 173);
+  cursor: pointer;
+}
+.table{
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th,tr,td{
+  border: 1px solid black;
+  padding: 10px;
+}
